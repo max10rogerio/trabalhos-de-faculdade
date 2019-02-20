@@ -1,0 +1,1 @@
+Instalar o banco de dados, arquivo: sistemaescolar.sql

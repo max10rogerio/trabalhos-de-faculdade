@@ -32,7 +32,7 @@ public class Professor {
 	
 	@Override
 	public String toString() {
-		return "Aluno [id=" + id + ", nome=" + nome + ", telefone=" + telefone + "]";
+		return "Professor [id=" + id + ", nome=" + nome + ", telefone=" + telefone + "]";
 	}
 
 }

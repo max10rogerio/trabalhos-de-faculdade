@@ -19,7 +19,8 @@ public class Livro extends BaseEntity {
 	private String editora;
 
 	private String resumo;
-
+	
+	@JsonIgnore
 	@ManyToOne
 	@JoinColumn(name = "AUTOR_ID")
 	private Autor autor;

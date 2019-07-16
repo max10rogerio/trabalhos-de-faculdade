@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="enzo-food" table="pedidos">
+        <id column="id" name="id" type="java.lang.Long">
+            <generator class="native"></generator>
+        </id>
+        <property column="status" name="status" length="60" type="java.lang.String"/>
+        <property column="data_pedido" name="data_pedido" type="java.lang.Date"/>
+        <property column="tipo_pedido" name="tipo_pedido" type="java.lang.String"/>
+        <property column="tipo_pagamento" name="tipo_pagamento" type="java.lang.String"/>
+        
+    </class>
+</hibernate-mapping>

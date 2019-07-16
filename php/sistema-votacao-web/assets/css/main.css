@@ -1,0 +1,16 @@
+.display-hidden{
+  display: none !important;
+}
+.bg-light-yellow{
+  background-color: #eefc5a;
+}
+.bg-light-gray{
+  background: #f8f8f8;
+}
+.img-size-form{
+  width: 200px;
+  height: 200px;
+}
+.pointer{
+  cursor: pointer;
+}
